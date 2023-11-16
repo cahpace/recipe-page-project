@@ -3,7 +3,41 @@
     --color-pink: #F02B67;
     --color-font: antiquewhite;
 }
-
+a{
+    text-decoration: none;
+    /*color: var(--color-font);*/
+    color: var(--color-font)!important;
+}
 body {
  background-color: var(--color-purple) !important;;
+}
+
+.image-header {
+    height: 20vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/assortment-vegetables-herbs-spices_123827-21760.jpg?w=740&t=st=1694736574~exp=1694737174~hmac=d9f441764df468fe633e8cab3f97c080a7ce8517db28f33e8b16eeda54eb9c1c);
+    background-size: cover;
+}
+nav {
+    margin: 1rem 0 1rem;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin: 0;
+    /*border-bottom: 0.1rem solid var(--color-purple);*/
+    background-color: var(--color-pink)!important;
+}
+
+/*--------------Footer----------*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: var(--color-font);
+    border-top: var(--color-pink) 0.1rem solid;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: var(--color-pink)!important;
 }
