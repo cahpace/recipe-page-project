@@ -89,7 +89,7 @@ nav {
 .carrousel-recipes {
     /*background-image: url(https://img.freepik.com/free-photo/assortment-vegetables-herbs-spices_123827-21760.jpg?w=740&t=st=1694736574~exp=1694737174~hmac=d9f441764df468fe633e8cab3f97c080a7ce8517db28f33e8b16eeda54eb9c1c);*/
    
-    height: 10vh !important;
+    height: 3vh !important;
 }
 .menu-recipes {
     display: flex;
