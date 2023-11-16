@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*possiveis cores para usar:
+#F02B67  #202637  #F2F2F2 - romance- roxo, rosa e branco
+lavander: #13131E  #8095FF    #8095FF
+*/
+body {
+    font-size: 100%;
+    background-color: #202637;
+}
+h1{
+    color: blueviolet;
+}

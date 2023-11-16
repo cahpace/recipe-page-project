@@ -1,0 +1,9 @@
+:root {
+    --color-purple: #202637;
+    --color-pink: #F02B67;
+    --color-font: antiquewhite;
+}
+
+body {
+ background-color: var(--color-purple) !important;;
+}
