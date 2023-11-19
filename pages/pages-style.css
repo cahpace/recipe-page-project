@@ -12,9 +12,13 @@
 }*/
 /*------------Variables--------------*/
 :root {
+    --color-purple: #202637;
+    --color-pink: #F02B67;
+    --color-font: antiquewhite;
+    /*
     --color-purple: #20263775;
     --color-pink: #f02b6676;
-    --color-font: antiquewhite;
+    --color-font: antiquewhite;*/
 }
 html{
     font-size: 16px;
@@ -114,6 +118,11 @@ footer{
     justify-content: space-evenly;
     color: var(--color-font);
     border-top: var(--color-pink) 0.1rem solid;
+    background-color: var(--color-pink);
     padding: 1rem;
+    
+
+}
+footer li {
     list-style-type: none;
 }

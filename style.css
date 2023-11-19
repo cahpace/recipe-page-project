@@ -89,7 +89,11 @@ nav {
 .carrousel-recipes {
     /*background-image: url(https://img.freepik.com/free-photo/assortment-vegetables-herbs-spices_123827-21760.jpg?w=740&t=st=1694736574~exp=1694737174~hmac=d9f441764df468fe633e8cab3f97c080a7ce8517db28f33e8b16eeda54eb9c1c);*/
    
-    height: 3vh !important;
+    height: 60vh !important;
+}
+.width-carousel{
+    width: 60vw !important;
+    margin-left: 20vw !important;
 }
 .menu-recipes {
     display: flex;
@@ -113,7 +117,17 @@ img{
     border-bottom: 0.5px solid var(--color-font);
     margin-top: 5px;
 }
+.cardDimension{
+    width: 30vw !important;
+}
 
+.cardRow{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.card-img-top{
+    height: 40vh !important;
+}
 
 .music-card{
     background-color:var(--color-pink);
@@ -125,7 +139,15 @@ img{
     display: flex;
     justify-content: center;
 }
+#buttonMusica{
+    background-color: var(--color-pink) !important;
+    color: white !important;
+}
 
+#buttonMusica:hover {
+    box-shadow: 0px 0px 6px 1px white;
+   text-shadow: 0px 0px 6px 2px white;
+}
 /*--------------Footer----------*/
 footer{
     display: flex;
